@@ -1,0 +1,10 @@
+package org.thingml.generated.api;
+
+import org.thingml.generated.api.*;
+
+public interface IHeadlessDisplayJava_displayClient{
+void displayReady__from_display(byte DisplayMsgs_displayReady__var47_var);
+void displayReadyvar8_from_display(byte DisplayMsgs_displayReadyvar8_var23_var, byte DisplayMsgs_displayReadyvar8_var8_var);
+void displayReady_bis__from_display(byte DisplayMsgs_displayReady_bis__var32_var);
+void displayReady_bisvar8_from_display(byte DisplayMsgs_displayReady_bisvar8_var43_var, byte DisplayMsgs_displayReady_bisvar8_var8_var);
+}

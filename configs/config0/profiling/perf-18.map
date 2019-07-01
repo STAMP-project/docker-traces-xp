@@ -1,0 +1,636 @@
+7ff2e09be480 e2 getCPUIDNameInfo_stub
+7ff2e09beeee 92 _linkToInterface
+7ff2e09beebf 2f _linkToSpecial
+7ff2e09beea0 1f _linkToStatic
+7ff2e09bee56 4a _linkToVirtual
+7ff2e09bee01 55 _invokeBasic
+7ff2e09bee00 1 _invokeGeneric
+7ff2e09b7700 17a vectorizedMismatch
+7ff2e09b7600 fa mulAdd
+7ff2e09b74c0 12d squareToLen
+7ff2e09b72a0 219 multiplyToLen
+7ff2e09b7282 7 SafeFetchN
+7ff2e09b727c 6 SafeFetch32
+7ff2e09b7140 13c ghash_processBlocks
+7ff2e09b7120 10 ghash_byte_swap_mask
+7ff2e09b7100 10 ghash_long_swap_mask
+7ff2e09b5f00 11f1 counterMode_AESCrypt
+7ff2e09b5ef0 10 counter_shuffle_mask
+7ff2e09b5720 7c9 cipherBlockChaining_decryptAESCrypt
+7ff2e09b54e0 228 cipherBlockChaining_encryptAESCrypt
+7ff2e09b53c0 11a aescrypt_decryptBlock
+7ff2e09b52a0 11a aescrypt_encryptBlock
+7ff2e09b5280 10 key_shuffle_mask
+7ff2e09b5200 7f arrayof_jint_fill
+7ff2e09b5160 8e arrayof_jshort_fill
+7ff2e09b50a0 ad arrayof_jbyte_fill
+7ff2e09b5020 7f jint_fill
+7ff2e09b4f60 ae jshort_fill
+7ff2e09b4e80 cd jbyte_fill
+7ff2e09b4c7b 1f5 generic_arraycopy
+7ff2e09b4c40 3b unsafe_arraycopy
+7ff2e09b4aa0 185 checkcast_arraycopy_uninit
+7ff2e09b4820 265 checkcast_arraycopy
+7ff2e09b46a0 16a oop_arraycopy_uninit
+7ff2e09b4540 15b oop_disjoint_arraycopy_uninit
+7ff2e09b42e0 24a oop_arraycopy
+7ff2e09b40a0 22b oop_disjoint_arraycopy
+7ff2e09b4020 7a jlong_arraycopy
+7ff2e09b3fa0 6a jlong_disjoint_arraycopy
+7ff2e09b3f00 9a jint_arraycopy
+7ff2e09b3e60 84 jint_disjoint_arraycopy
+7ff2e09b3da0 aa jshort_arraycopy
+7ff2e09b3d00 94 jshort_disjoint_arraycopy
+7ff2e09b3c40 ba jbyte_arraycopy
+7ff2e09b3b80 a8 jbyte_disjoint_arraycopy
+7ff2e09b3a30 14c verify_oop
+7ff2e09b3a20 10 double_sign_flip
+7ff2e09b3a00 10 double_sign_mask
+7ff2e09b39e0 10 float_sign_flip
+7ff2e09b39c0 10 float_sign_mask
+7ff2e09b394b 5a d2l_fixup
+7ff2e09b38fb 50 d2i_fixup
+7ff2e09b38b8 43 f2l_fixup
+7ff2e09b3880 38 f2i_fixup
+7ff2e0981475 850 libmTan
+7ff2e0980dfc 679 libmCos
+7ff2e0980765 697 libmSin
+7ff2e097f651 1114 libmPow
+7ff2e097f3a2 2af libmLog10
+7ff2e097f126 27c libmLog
+7ff2e097edf9 32d libmExp
+7ff2e097eba0 259 updateBytesCRC32C
+7ff2e097e940 259 updateBytesCRC32
+7ff2e097e923 1 verify_mxcsr
+7ff2e097e91b 8 get_previous_sp
+7ff2e097e90e d get_previous_fp
+7ff2e097e907 7 orderaccess_fence
+7ff2e097e8fb c atomic_add_long
+7ff2e097e8f2 9 atomic_add
+7ff2e097e8e9 9 atomic_cmpxchg_long
+7ff2e097e8df a atomic_cmpxchg_byte
+7ff2e097e8d8 7 atomic_cmpxchg
+7ff2e097e8d1 7 atomic_xchg_long
+7ff2e097e8cc 5 atomic_xchg
+7ff2e097e8ad 1f catch_exception
+7ff2e097e7bf ee call_stub
+7ff2e097e780 3f forward exception
+7ff2e097e280 380 get_cpu_info_stub
+7ff2e097e080 1d flush_icache_stub
+7ff2e0a71090 ab itable stub
+7ff2e0a71200 ab itable stub
+7ff2e0a711d0 1e vtable stub
+7ff2e0a711a0 1e vtable stub
+7ff2e0a71060 1e vtable stub
+7ff2e0a71010 1e vtable stub
+7ff2e0985d80 1c0 wrong_method_stub
+7ff2e0986100 78 StackOverflowError throw_exception
+7ff2e0986300 78 delayed StackOverflowError throw_exception
+7ff2e0986500 1de80 Interpreter
+7ff2e09a4400 3d8 SafepointBlob
+7ff2e09a4980 1c0 wrong_method_abstract_stub
+7ff2e09a4c00 1c0 ic_miss_stub
+7ff2e09a4e80 1c0 resolve_opt_virtual_call
+7ff2e09a5100 1c0 resolve_virtual_call
+7ff2e09a5380 1c0 resolve_static_call
+7ff2e09a5600 180 I2C/C2I adapters
+7ff2e09a5980 178 I2C/C2I adapters
+7ff2e09a5b80 170 I2C/C2I adapters
+7ff2e09a5d80 160 I2C/C2I adapters
+7ff2e09a5f80 1c8 SafepointBlob
+7ff2e09a6200 188 SafepointBlob
+7ff2e09a64a0 328 DeoptimizationBlob
+7ff2e09a6880 110 UncommonTrapBlob
+7ff2e09a6a80 2800 InlineCacheBuffer
+7ff2e09a9300 4000 adapters
+7ff2e09ad380 178 I2C/C2I adapters
+7ff2e09ad580 198 I2C/C2I adapters
+7ff2e09ad800 170 I2C/C2I adapters
+7ff2e09ada00 180 I2C/C2I adapters
+7ff2e09adc00 190 I2C/C2I adapters
+7ff2e09ade80 180 I2C/C2I adapters
+7ff2e09ae080 188 I2C/C2I adapters
+7ff2e09ae300 1b0 I2C/C2I adapters
+7ff2e09ae580 190 I2C/C2I adapters
+7ff2e09ae800 180 I2C/C2I adapters
+7ff2e09aea00 170 I2C/C2I adapters
+7ff2e09aec00 170 I2C/C2I adapters
+7ff2e09aee00 168 I2C/C2I adapters
+7ff2e09af000 190 I2C/C2I adapters
+7ff2e09af280 1b0 I2C/C2I adapters
+7ff2e09af500 200 I2C/C2I adapters
+7ff2e09af780 180 I2C/C2I adapters
+7ff2e09af980 1b8 I2C/C2I adapters
+7ff2e09afc00 188 I2C/C2I adapters
+7ff2e09afe80 188 I2C/C2I adapters
+7ff2e09b0100 188 I2C/C2I adapters
+7ff2e09b0380 188 I2C/C2I adapters
+7ff2e09b0600 188 I2C/C2I adapters
+7ff2e09b0880 198 I2C/C2I adapters
+7ff2e09b0b00 198 I2C/C2I adapters
+7ff2e09b0d80 1b0 I2C/C2I adapters
+7ff2e09b1000 190 I2C/C2I adapters
+7ff2e09b1280 198 I2C/C2I adapters
+7ff2e09b1500 188 I2C/C2I adapters
+7ff2e09b1780 188 I2C/C2I adapters
+7ff2e09b1a00 180 I2C/C2I adapters
+7ff2e09b1c00 180 I2C/C2I adapters
+7ff2e09b1e00 190 I2C/C2I adapters
+7ff2e09b2080 190 I2C/C2I adapters
+7ff2e09b2300 180 I2C/C2I adapters
+7ff2e09b2500 180 I2C/C2I adapters
+7ff2e09b2700 198 I2C/C2I adapters
+7ff2e09b2980 188 I2C/C2I adapters
+7ff2e09b2c00 1d8 I2C/C2I adapters
+7ff2e09b2e80 190 I2C/C2I adapters
+7ff2e09b3100 198 I2C/C2I adapters
+7ff2e09b3380 198 I2C/C2I adapters
+7ff2e09b3600 198 I2C/C2I adapters
+7ff2e09be800 78 AbstractMethodError throw_exception
+7ff2e09bea00 78 IncompatibleClassChangeError throw_exception
+7ff2e09bec00 78 NullPointerException at call throw_exception
+7ff2e09c6b80 178 I2C/C2I adapters
+7ff2e09c6d80 178 I2C/C2I adapters
+7ff2e09c6f80 190 I2C/C2I adapters
+7ff2e09c7200 190 I2C/C2I adapters
+7ff2e09c7480 190 I2C/C2I adapters
+7ff2e09c7700 170 I2C/C2I adapters
+7ff2e09c7900 170 I2C/C2I adapters
+7ff2e09c7b00 170 I2C/C2I adapters
+7ff2e09c7d00 190 I2C/C2I adapters
+7ff2e09c7f80 190 I2C/C2I adapters
+7ff2e09c8200 8000 native signature handlers
+7ff2e09d0280 400 Signature Handler Temp Buffer
+7ff2e09d0700 180 I2C/C2I adapters
+7ff2e09d0900 188 I2C/C2I adapters
+7ff2e09d0b80 190 I2C/C2I adapters
+7ff2e09d0e00 188 I2C/C2I adapters
+7ff2e09d1080 180 I2C/C2I adapters
+7ff2e09d1280 170 I2C/C2I adapters
+7ff2e09d1480 190 I2C/C2I adapters
+7ff2e09d1700 198 I2C/C2I adapters
+7ff2e09d1980 1b0 I2C/C2I adapters
+7ff2e09d1c00 190 I2C/C2I adapters
+7ff2e09d1e80 1c0 I2C/C2I adapters
+7ff2e09d2100 1e8 I2C/C2I adapters
+7ff2e09d2380 1b0 I2C/C2I adapters
+7ff2e09d2600 190 I2C/C2I adapters
+7ff2e09d2880 190 I2C/C2I adapters
+7ff2e09d2b00 218 I2C/C2I adapters
+7ff2e09d2e00 180 I2C/C2I adapters
+7ff2e09d3000 188 I2C/C2I adapters
+7ff2e09d3280 250 I2C/C2I adapters
+7ff2e09d3580 280 I2C/C2I adapters
+7ff2e09d3880 2b8 I2C/C2I adapters
+7ff2e09d3c00 2f0 I2C/C2I adapters
+7ff2e09d3f80 218 I2C/C2I adapters
+7ff2e09d4280 198 I2C/C2I adapters
+7ff2e09d4500 190 I2C/C2I adapters
+7ff2e09d4780 190 I2C/C2I adapters
+7ff2e09d4a00 190 I2C/C2I adapters
+7ff2e09d4c80 180 I2C/C2I adapters
+7ff2e09d4e80 188 I2C/C2I adapters
+7ff2e09d5100 180 I2C/C2I adapters
+7ff2e09d5300 190 I2C/C2I adapters
+7ff2e09d5580 178 I2C/C2I adapters
+7ff2e09d5780 1c0 I2C/C2I adapters
+7ff2e09d5a00 1d8 I2C/C2I adapters
+7ff2e09d5c80 190 I2C/C2I adapters
+7ff2e09d5f00 188 I2C/C2I adapters
+7ff2e09d6180 170 I2C/C2I adapters
+7ff2e09d6380 180 I2C/C2I adapters
+7ff2e09d6580 198 I2C/C2I adapters
+7ff2e09d6800 178 I2C/C2I adapters
+7ff2e09d6a00 178 I2C/C2I adapters
+7ff2e09d6c00 178 I2C/C2I adapters
+7ff2e09d6e00 178 I2C/C2I adapters
+7ff2e09d7000 178 I2C/C2I adapters
+7ff2e09d7200 178 I2C/C2I adapters
+7ff2e09d7400 188 I2C/C2I adapters
+7ff2e09d7680 188 I2C/C2I adapters
+7ff2e09d7900 178 I2C/C2I adapters
+7ff2e09d7b00 178 I2C/C2I adapters
+7ff2e09d7d00 188 I2C/C2I adapters
+7ff2e09d7f80 188 I2C/C2I adapters
+7ff2e09d8200 188 I2C/C2I adapters
+7ff2e09d8480 198 I2C/C2I adapters
+7ff2e09d8700 188 I2C/C2I adapters
+7ff2e09d8980 188 I2C/C2I adapters
+7ff2e09d8c00 180 I2C/C2I adapters
+7ff2e09d8e00 180 I2C/C2I adapters
+7ff2e09d9000 1a8 I2C/C2I adapters
+7ff2e09d9280 190 I2C/C2I adapters
+7ff2e09d9500 1a8 I2C/C2I adapters
+7ff2e09d9780 188 I2C/C2I adapters
+7ff2e09d9a00 1a8 I2C/C2I adapters
+7ff2e09d9c80 f0 jni_fast_GetBooleanField
+7ff2e09d9e80 f0 jni_fast_GetByteField
+7ff2e09da080 f0 jni_fast_GetCharField
+7ff2e09da280 f0 jni_fast_GetShortField
+7ff2e09da480 f0 jni_fast_GetIntField
+7ff2e09da680 f0 jni_fast_GetLongField
+7ff2e09da880 f0 jni_fast_GetFloatField
+7ff2e09daa80 f0 jni_fast_GetDoubleField
+7ff2e09dac80 70 _multianewarrayN_Java
+7ff2e09dae80 90 _multianewarray5_Java
+7ff2e09db000 78 _multianewarray4_Java
+7ff2e09db100 78 _multianewarray3_Java
+7ff2e09db200 70 _multianewarray2_Java
+7ff2e09db300 70 _new_array_nozero_Java
+7ff2e09db400 70 _new_array_Java
+7ff2e09db500 70 _new_instance_Java
+7ff2e09db600 90 ExceptionBlob
+7ff2e09db800 a0 handle_exception_from_callee Runtime1 stub
+7ff2e09dbb00 200 handle_exception Runtime1 stub
+7ff2e09dbd80 138 handle_exception_nofpu Runtime1 stub
+7ff2e09dbf80 218 new_multi_array Runtime1 stub
+7ff2e09dc280 218 new_object_array Runtime1 stub
+7ff2e09dc580 218 new_type_array Runtime1 stub
+7ff2e09dc880 210 fast_new_instance_init_check Runtime1 stub
+7ff2e09dcb80 210 fast_new_instance Runtime1 stub
+7ff2e09dce80 210 new_instance Runtime1 stub
+7ff2e09dd180 218 register_finalizer Runtime1 stub
+7ff2e09dd4a0 1a8 throw_null_pointer_exception Runtime1 stub
+7ff2e09dd720 1a8 throw_div0_exception Runtime1 stub
+7ff2e09dd9a0 1b0 throw_index_exception Runtime1 stub
+7ff2e09ddc20 1b0 throw_range_check_failed Runtime1 stub
+7ff2e09ddea0 1e8 forward_exception Runtime1 stub
+7ff2e09de180 40 unwind_exception Runtime1 stub
+7ff2e09de280 190 dtrace_object_alloc Runtime1 stub
+7ff2e09de500 60 _complete_monitor_locking_Java
+7ff2e09de700 60 _monitor_notify_Java
+7ff2e09de900 60 _monitor_notifyAll_Java
+7ff2e09deb00 90 _rethrow_Java
+7ff2e09ded00 68 _slow_arraycopy_Java
+7ff2e09def00 60 _register_finalizer_Java
+7ff2e09df100 8ccd0 C1 temporary CodeBuffer
+7ff2e0a6bea0 1b0 throw_array_store_exception Runtime1 stub
+7ff2e0a6c120 1b0 throw_class_cast_exception Runtime1 stub
+7ff2e0a6c3a0 1a8 throw_incompatible_class_change_error Runtime1 stub
+7ff2e0a6c600 50 slow_subtype_check Runtime1 stub
+7ff2e0a6c800 1f8 monitorenter Runtime1 stub
+7ff2e0a6ca80 130 monitorenter_nofpu Runtime1 stub
+7ff2e0a6cc80 1f0 monitorexit Runtime1 stub
+7ff2e0a6cf00 128 monitorexit_nofpu Runtime1 stub
+7ff2e0a6d100 1f8 deoptimize Runtime1 stub
+7ff2e0a6d380 3a0 access_field_patching Runtime1 stub
+7ff2e0a6d800 3a0 load_klass_patching Runtime1 stub
+7ff2e0a6dc80 3a0 load_mirror_patching Runtime1 stub
+7ff2e0a6e100 3a0 load_appendix_patching Runtime1 stub
+7ff2e0a6e580 b8 fpu2long_stub Runtime1 stub
+7ff2e0a6e780 1f8 counter_overflow Runtime1 stub
+7ff2e0a6ea00 1f0 predicate_failed_trap Runtime1 stub
+7ff2e0a6ec80 1e8 g1_pre_barrier_slow
+7ff2e0a6ef00 208 g1_post_barrier_slow
+7ff2e0a6f200 178 I2C/C2I adapters
+7ff2e0a6f400 198 I2C/C2I adapters
+7ff2e0a6f680 1c0 I2C/C2I adapters
+7ff2e0a6f900 1b0 I2C/C2I adapters
+7ff2e0a6fb80 1b0 I2C/C2I adapters
+7ff2e0a6fe00 230 I2C/C2I adapters
+7ff2e0a70100 218 I2C/C2I adapters
+7ff2e0a70400 180 I2C/C2I adapters
+7ff2e0a70600 1e8 I2C/C2I adapters
+7ff2e0a70880 1c0 I2C/C2I adapters
+7ff2e0a70b00 1d8 I2C/C2I adapters
+7ff2e0a70d80 198 I2C/C2I adapters
+7ff2e0a71b00 180 I2C/C2I adapters
+7ff2e0a71e00 180 I2C/C2I adapters
+7ff2e0a72000 180 I2C/C2I adapters
+7ff2e0a72200 178 I2C/C2I adapters
+7ff2e0a72400 178 I2C/C2I adapters
+7ff2e0a72600 178 I2C/C2I adapters
+7ff2e0a72800 190 I2C/C2I adapters
+7ff2e0a72a80 178 I2C/C2I adapters
+7ff2e0a72c80 190 I2C/C2I adapters
+7ff2e0a72f00 180 I2C/C2I adapters
+7ff2e0a73100 180 I2C/C2I adapters
+7ff2e0a73300 180 I2C/C2I adapters
+7ff2e0a73500 1b0 I2C/C2I adapters
+7ff2e0a73780 1e8 I2C/C2I adapters
+7ff2e0a73a00 1c0 I2C/C2I adapters
+7ff2e0a73c80 1d8 I2C/C2I adapters
+7ff2e0a73f00 190 I2C/C2I adapters
+7ff2e0a74180 198 I2C/C2I adapters
+7ff2e0a74400 1d8 I2C/C2I adapters
+7ff2e0a74680 198 I2C/C2I adapters
+7ff2e0a74900 190 I2C/C2I adapters
+7ff2e0a74c00 198 I2C/C2I adapters
+7ff2e0a74e80 190 I2C/C2I adapters
+7ff2e0a75100 198 I2C/C2I adapters
+7ff2e0a75380 190 I2C/C2I adapters
+7ff2e0a75600 198 I2C/C2I adapters
+7ff2e0a75880 190 I2C/C2I adapters
+7ff2e0a75b00 198 I2C/C2I adapters
+7ff2e0a75d80 1b0 I2C/C2I adapters
+7ff2e0a76000 198 I2C/C2I adapters
+7ff2e0a76280 1a8 I2C/C2I adapters
+7ff2e0a76500 198 I2C/C2I adapters
+7ff2e0a76780 188 I2C/C2I adapters
+7ff2e0a76a00 188 I2C/C2I adapters
+7ff2e0a76c80 190 I2C/C2I adapters
+7ff2e0a76f00 198 I2C/C2I adapters
+7ff2e0a77180 190 I2C/C2I adapters
+7ff2e0a77400 180 I2C/C2I adapters
+7ff2e0a77600 180 I2C/C2I adapters
+7ff2e0a77800 180 I2C/C2I adapters
+7ff2e0a77a00 198 I2C/C2I adapters
+7ff2e0a77c80 190 I2C/C2I adapters
+7ff2e0a77f00 190 I2C/C2I adapters
+7ff2e0a78180 188 I2C/C2I adapters
+7ff2e0a78400 180 I2C/C2I adapters
+7ff2e0a78600 188 I2C/C2I adapters
+7ff2e0a78880 180 I2C/C2I adapters
+7ff2e0a78a80 188 I2C/C2I adapters
+7ff2e0a78d00 198 I2C/C2I adapters
+7ff2e0a78f80 188 I2C/C2I adapters
+7ff2e0a79200 188 I2C/C2I adapters
+7ff2e0a79480 190 I2C/C2I adapters
+7ff2e0a79700 180 I2C/C2I adapters
+7ff2e0a79900 1e8 I2C/C2I adapters
+7ff2e0a79b80 198 I2C/C2I adapters
+7ff2e0a79e00 190 I2C/C2I adapters
+7ff2e0a7a080 190 I2C/C2I adapters
+7ff2e0a7a300 198 I2C/C2I adapters
+7ff2e0a7a580 198 I2C/C2I adapters
+7ff2e0a7a800 190 I2C/C2I adapters
+7ff2e0a7aa80 198 I2C/C2I adapters
+7ff2e0a7ad00 1b0 I2C/C2I adapters
+7ff2e0a7af80 1b0 I2C/C2I adapters
+7ff2e0a7b200 1c0 I2C/C2I adapters
+7ff2e0a7b480 180 I2C/C2I adapters
+7ff2e0a7b680 188 I2C/C2I adapters
+7ff2e0a7b900 198 I2C/C2I adapters
+7ff2e0a7bb80 1b0 I2C/C2I adapters
+7ff2e0a7be00 188 I2C/C2I adapters
+7ff2e0a7c080 1b0 I2C/C2I adapters
+7ff2e0a7c300 198 I2C/C2I adapters
+7ff2e0a7c580 198 I2C/C2I adapters
+7ff2e0a7c800 1b0 I2C/C2I adapters
+7ff2e0a7ca80 198 I2C/C2I adapters
+7ff2e0a7cd00 180 I2C/C2I adapters
+7ff2e0a7cf00 180 I2C/C2I adapters
+7ff2e0a7d100 200 I2C/C2I adapters
+7ff2e0a7d380 218 I2C/C2I adapters
+7ff2e0a7d680 1e8 I2C/C2I adapters
+7ff2e0a7d900 190 I2C/C2I adapters
+7ff2e0a7db80 268 I2C/C2I adapters
+7ff2e0a7de80 250 I2C/C2I adapters
+7ff2e0a7e180 230 I2C/C2I adapters
+7ff2e0a7e480 230 I2C/C2I adapters
+7ff2e0a7e780 230 I2C/C2I adapters
+7ff2e0a7ea80 218 I2C/C2I adapters
+7ff2e0a7ed80 200 I2C/C2I adapters
+7ff2e0a7f000 200 I2C/C2I adapters
+7ff2e0a7f280 280 I2C/C2I adapters
+7ff2e0a7f580 280 I2C/C2I adapters
+7ff2e0a7f880 268 I2C/C2I adapters
+7ff2e0a7fb80 1b0 I2C/C2I adapters
+7ff2e0a7fe00 1e0 I2C/C2I adapters
+7ff2e0a80080 1e8 I2C/C2I adapters
+7ff2e0a80300 1b0 I2C/C2I adapters
+7ff2e0a80580 198 I2C/C2I adapters
+7ff2e0a80800 198 I2C/C2I adapters
+7ff2e0a80a80 1c0 I2C/C2I adapters
+7ff2e0a80d00 1b0 I2C/C2I adapters
+7ff2e0a80f80 1c0 I2C/C2I adapters
+7ff2e0a81200 198 I2C/C2I adapters
+7ff2e0a81480 188 I2C/C2I adapters
+7ff2e0a81700 188 I2C/C2I adapters
+7ff2e0a81980 198 I2C/C2I adapters
+7ff2e0a81c00 188 I2C/C2I adapters
+7ff2e0a81e80 1b0 I2C/C2I adapters
+7ff2e0a84400 1c0 I2C/C2I adapters
+7ff2e0a84680 1b0 I2C/C2I adapters
+7ff2e0a84900 198 I2C/C2I adapters
+7ff2e0a84b80 190 I2C/C2I adapters
+7ff2e84461c0 80 Ljava/lang/Object;::<init>
+7ff2e8446540 80 Ljava/util/Collections$EmptySet;::hashCode
+7ff2e84468c0 80 Ljava/lang/module/ModuleDescriptor;::name
+7ff2e8446c40 80 Ljava/lang/module/ModuleReference;::descriptor
+7ff2e8446fa0 180 Ljava/lang/StringLatin1;::hashCode
+7ff2e84473c0 80 Ljava/util/KeyValueHolder;::getKey
+7ff2e8447740 80 Ljava/util/KeyValueHolder;::getValue
+7ff2e8447ac0 80 Ljava/lang/module/ResolvedModule;::reference
+7ff2e8447e40 210 Ljdk/internal/misc/Unsafe;::compareAndSetLong
+7ff2e8448240 238 Ljdk/internal/misc/Unsafe;::compareAndSetObject
+7ff2e8448640 210 Ljava/lang/Object;::hashCode
+7ff2e8448a40 80 Ljava/util/ImmutableCollections$SetN;::size
+7ff2e8448dc0 80 Ljava/lang/module/ModuleDescriptor$Exports;::source
+7ff2e8449140 80 Ljava/util/Collections$EmptySet;::isEmpty
+7ff2e84494c0 80 Ljava/lang/module/ModuleDescriptor;::isAutomatic
+7ff2e8449840 80 Ljava/lang/module/ResolvedModule;::configuration
+7ff2e8449bc0 80 Ljava/lang/module/ModuleDescriptor;::isOpen
+7ff2e8449f20 60 Ljava/util/ImmutableCollections$SetN$SetNIterator;::hasNext
+7ff2e844a1c0 200 Ljava/lang/Module;::addExportsToAllUnnamed0
+7ff2e844a5c0 80 Ljava/util/HashMap;::afterNodeInsertion
+7ff2e844a940 80 Ljava/lang/Module;::getDescriptor
+7ff2e844aca0 220 Ljava/lang/String;::hashCode
+7ff2e844b1a0 80 Ljava/util/ImmutableCollections$SetN$SetNIterator;::nextIndex
+7ff2e844b4a0 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844b6c0 210 Ljava/lang/System;::arraycopy
+7ff2e844bac0 a0 Ljava/lang/Object;::<init>
+7ff2e844be40 80 Ljava/util/zip/Inflater$InflaterZStreamRef;::address
+7ff2e844c1a0 28 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844c3c0 80 Ljava/lang/Enum;::ordinal
+7ff2e844c720 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844c920 30 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844cb20 28 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844cd40 80 Ljava/lang/Class;::getClassLoader0
+7ff2e844d0c0 1f0 Ljava/lang/Class;::isPrimitive
+7ff2e844d4c0 80 Ljava/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry;::hashCode
+7ff2e844d820 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844da20 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844dc40 80 Ljava/lang/invoke/MethodType;::returnType
+7ff2e844dfa0 30 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844e1a0 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844e3a0 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844e5a0 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844e7a0 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844e9a0 30 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844eba0 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844edc0 1f0 Ljava/lang/Class;::isArray
+7ff2e844f1a0 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844f3c0 80 Ljava/lang/invoke/MemberName;::getDeclaringClass
+7ff2e844f720 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844f920 c0 Ljava/lang/String;::charAt
+7ff2e844fca0 30 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e844fea0 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e84500a0 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e84502c0 80 Ljava/lang/invoke/MethodType;::ptypes
+7ff2e8450620 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e8450840 80 Ljava/lang/invoke/MethodType;::form
+7ff2e8450bc0 80 Ljava/lang/Class;::getModule
+7ff2e8450f40 268 Ljava/lang/Object;::clone
+7ff2e84513a0 60 Ljava/lang/String;::isLatin1
+7ff2e8451620 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e8451840 80 Ljava/security/ProtectionDomain;::getCodeSource
+7ff2e8451ba0 60 Ljava/lang/String;::coder
+7ff2e8451e40 80 Ljava/net/URL;::getProtocol
+7ff2e84521c0 80 Ljava/security/CodeSource;::getLocationNoFragString
+7ff2e8452540 80 Ljava/lang/invoke/MethodHandle;::type
+7ff2e84528c0 80 Ljava/lang/invoke/MethodHandles$Lookup;::lookupClass
+7ff2e8452c40 80 Ljava/security/CodeSource;::getLocation
+7ff2e8452fc0 80 Ljava/net/URL;::getFile
+7ff2e8453340 80 Ljava/lang/invoke/MethodTypeForm;::basicType
+7ff2e84536c0 80 Ljava/lang/invoke/MethodTypeForm;::erasedType
+7ff2e8453a40 80 Lsun/invoke/util/Wrapper;::basicTypeChar
+7ff2e8453dc0 400 Ljdk/internal/org/objectweb/asm/ByteVector;::putUTF8
+7ff2e8454620 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e8454820 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e8454a20 20 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e8454c40 270 Ljava/lang/Thread;::currentThread
+7ff2e84550c0 210 Ljdk/internal/misc/Unsafe;::compareAndSetInt
+7ff2e84554c0 80 Ljava/util/concurrent/locks/AbstractOwnableSynchronizer;::getExclusiveOwnerThread
+7ff2e8455840 80 Lorg/thingml/generated/BreakoutGameJava;::getBreakoutGame_SCALE_var
+7ff2e8455bc0 80 Ljava/util/concurrent/locks/AbstractQueuedSynchronizer;::getState
+7ff2e8455f40 e0 Ljava/util/concurrent/locks/AbstractOwnableSynchronizer;::setExclusiveOwnerThread
+7ff2e84562c0 80 Ljava/util/concurrent/locks/AbstractQueuedSynchronizer;::setState
+7ff2e8456620 30 Ljava/lang/invoke/MethodHandle;::invokeBasic
+7ff2e8456840 80 Ljava/util/concurrent/atomic/AtomicInteger;::get
+7ff2e8456bc0 200 Ljdk/internal/misc/Unsafe;::getIntVolatile
+7ff2e8456fc0 80 Lno/sintef/jasm/ext/Event;::getType
+7ff2e8457340 80 Lno/sintef/jasm/ext/EventType;::getCode
+7ff2e84576c0 80 Lno/sintef/jasm/ext/Event;::getPort
+7ff2e8457a40 80 Lno/sintef/jasm/ext/EventType;::getName
+7ff2e8457dc0 208 Ljava/lang/Class;::isInstance
+7ff2e0f0e1c0 180 Ljava/lang/StringLatin1;::hashCode
+7ff2e0f0e6c0 c0 Ljava/lang/Object;::<init>
+7ff2e0f0ea40 140 Ljava/lang/String;::isLatin1
+7ff2e0f0ee80 2a0 Ljava/lang/String;::hashCode
+7ff2e0f0f4c0 1c0 Ljava/lang/Math;::floorMod
+7ff2e0f0fa20 560 Ljava/util/ImmutableCollections$SetN;::probe
+7ff2e0f10440 100 Ljava/lang/String;::coder
+7ff2e0f10860 220 Ljava/lang/StringLatin1;::equals
+7ff2e0f10dc0 c0 Ljava/util/Collections;::emptySet
+7ff2e0f111a0 620 Ljava/lang/String;::equals
+7ff2e0f11be0 1a0 Ljava/util/Objects;::requireNonNull
+7ff2e0f120e0 2c0 Ljava/util/concurrent/ConcurrentHashMap;::tabAt
+7ff2e0f126c0 140 Ljdk/internal/misc/Unsafe;::getObjectAcquire
+7ff2e0f12b00 360 Ljava/lang/String;::charAt
+7ff2e0f13240 120 Ljava/util/ImmutableCollections$SetN$SetNIterator;::hasNext
+7ff2e0f13680 340 Ljava/util/ImmutableCollections$SetN$SetNIterator;::next
+7ff2e0f13dc0 140 Ljava/util/ImmutableCollections$SetN$SetNIterator;::nextIndex
+7ff2e0f14240 120 Ljava/util/AbstractCollection;::<init>
+7ff2e0f14640 180 Ljava/util/ImmutableCollections$AbstractImmutableCollection;::<init>
+7ff2e0f14b20 580 Ljava/util/ImmutableCollections$MapN;::probe
+7ff2e0f15560 240 Ljava/util/Objects;::equals
+7ff2e0f15ae0 1e0 Ljava/util/ImmutableCollections$AbstractImmutableSet;::<init>
+7ff2e0f16060 1c0 Ljava/util/HashMap;::hash
+7ff2e0f16720 21c0 Ljava/util/concurrent/ConcurrentHashMap;::putVal
+7ff2e0f196e0 8e0 Ljava/util/concurrent/ConcurrentHashMap;::addCount
+7ff2e0f1a540 200 Ljava/util/concurrent/ConcurrentHashMap$Node;::<init>
+7ff2e0f1aa40 c0 Ljava/util/concurrent/ConcurrentHashMap;::spread
+7ff2e0f1adc0 e0 Ljava/util/concurrent/ConcurrentHashMap;::putIfAbsent
+7ff2e0f1b2e0 11a0 Ljava/util/HashMap;::putVal
+7ff2e0f1ccc0 960 Ljava/util/HashMap;::getNode
+7ff2e0f1dac0 140 Ljava/util/concurrent/ConcurrentHashMap;::casTabAt
+7ff2e0f1dee0 2a0 Ljava/util/HashMap;::put
+7ff2e0f1e560 260 Ljava/util/HashMap$Node;::<init>
+7ff2e0f1eae0 320 Ljava/util/HashMap;::newNode
+7ff2e0f1f180 2e0 Ljava/util/HashMap;::get
+7ff2e0f1f840 c0 Ljava/util/HashMap;::afterNodeInsertion
+7ff2e0f1fbc0 120 Ljava/util/ImmutableCollections$Set12$1;::hasNext
+7ff2e0f1ffe0 280 Ljava/util/ImmutableCollections$Set12$1;::next
+7ff2e0f205e0 2e0 Ljdk/internal/module/ModuleBootstrap$2;::hasNext
+7ff2e0f20d60 1500 Ljava/util/HashMap;::resize
+7ff2e0f229a0 4c0 Ljdk/internal/module/ModuleBootstrap$2;::next
+7ff2e0f232e0 2a0 Ljava/util/HashMap;::putIfAbsent
+7ff2e0f23980 320 Ljava/util/ImmutableCollections$MapN;::get
+7ff2e0f24040 140 Ljava/util/ImmutableCollections$Set12;::size
+7ff2e0f24440 160 Ljava/lang/String;::length
+7ff2e0f248e0 380 Ljava/lang/StringLatin1;::indexOf
+7ff2e0f24fc0 100 Ljava/util/zip/ZipUtils;::SH
+7ff2e0f25480 2a0 Ljava/lang/String;::hashCode
+7ff2e0f25ac0 1a0 Ljava/util/zip/ZipFile$Source;::hashN
+7ff2e0f25fc0 100 Ljava/lang/Math;::min
+7ff2e0f263c0 120 Ljava/util/AbstractMap;::<init>
+7ff2e0f26800 420 Ljava/lang/AbstractStringBuilder;::ensureCapacityInternal
+7ff2e0f27060 220 Ljava/lang/String;::indexOf
+7ff2e0f275e0 220 Ljava/util/zip/ZipUtils;::LG
+7ff2e0f27c00 280 Ljava/lang/String;::indexOf
+7ff2e0f28260 380 Ljava/lang/StringLatin1;::lastIndexOf
+7ff2e0f289c0 180 Ljava/lang/String;::<init>
+7ff2e0f28e40 100 Ljava/lang/StringBuilder;::append
+7ff2e0f292c0 4c0 Ljava/lang/AbstractStringBuilder;::append
+7ff2e0f29ca0 700 Ljava/lang/CharacterData;::of
+7ff2e0f2a8a0 a80 Ljava/util/Arrays;::copyOfRange
+7ff2e0f2ba40 100 Ljava/lang/CharacterDataLatin1;::getProperties
+7ff2e0f2bf00 cc0 Ljava/util/concurrent/ConcurrentHashMap;::get
+7ff2e0f2d1e0 2a0 Ljava/util/Arrays;::copyOf
+7ff2e0f2d880 2c0 Ljava/lang/String;::getBytes
+7ff2e0f2df40 c0 Ljava/lang/System;::getSecurityManager
+7ff2e0f2e2c0 100 Ljava/lang/StringLatin1;::canEncode
+7ff2e0f2e6e0 240 Ljava/lang/ref/Reference;::<init>
+7ff2e0f2ec60 300 Ljava/lang/ref/ReferenceQueue;::poll
+7ff2e0f2f3a0 a60 Ljava/lang/invoke/MethodTypeForm;::canonicalize
+7ff2e0f30360 280 Ljava/lang/StringLatin1;::newString
+7ff2e0f30940 120 Ljava/lang/invoke/MemberName;::testFlags
+7ff2e0f30d60 220 Ljava/lang/String;::lastIndexOf
+7ff2e0f31300 360 Ljava/lang/invoke/MethodType;::checkPtype
+7ff2e0f31a40 140 Ljava/lang/AbstractStringBuilder;::isLatin1
+7ff2e0f31e60 340 Ljava/lang/invoke/MethodType;::hashCode
+7ff2e0f32600 560 Ljava/lang/invoke/MethodType$ConcurrentWeakInternSet;::expungeStaleElements
+7ff2e0f32fe0 240 Ljava/lang/invoke/MemberName;::isInvocable
+7ff2e0f33540 1e0 Ljava/lang/invoke/MemberName;::testAnyFlags
+7ff2e0f33a60 1c0 Ljdk/internal/org/objectweb/asm/ByteVector;::putShort
+7ff2e0f34040 660 Ljdk/internal/org/objectweb/asm/Item;::set
+7ff2e0f34be0 280 Ljava/lang/ref/Reference;::<init>
+7ff2e0f35280 8e0 Ljdk/internal/org/objectweb/asm/ByteVector;::putUTF8
+7ff2e0f36240 120 Ljdk/internal/misc/Unsafe;::putObjectRelease
+7ff2e0f36660 2a0 Ljdk/internal/org/objectweb/asm/ClassWriter;::get
+7ff2e0f36ce0 280 Ljdk/internal/org/objectweb/asm/Item;::<init>
+7ff2e0f37340 8c0 Ljdk/internal/org/objectweb/asm/ClassWriter;::put
+7ff2e0f38140 100 Ljava/lang/invoke/MethodType;::parameterType
+7ff2e0f38560 2e0 Ljava/lang/ref/WeakReference;::<init>
+7ff2e0f38bc0 e0 Ljava/lang/StringBuilder;::<init>
+7ff2e0f38fc0 200 Ljava/lang/invoke/MethodType;::<init>
+7ff2e0f394e0 1a0 Ljava/util/Objects;::requireNonNull
+7ff2e0f39ae0 de0 Ljava/lang/invoke/MethodType;::makeImpl
+7ff2e0f3b100 ca0 Ljava/lang/invoke/MethodType$ConcurrentWeakInternSet;::get
+7ff2e0f3c500 c40 Ljava/lang/StringLatin1;::replace
+7ff2e0f3d860 1e0 Ljava/lang/AbstractStringBuilder;::newCapacity
+7ff2e0f3de40 620 Ljava/lang/String;::substring
+7ff2e0f3ea60 a40 Ljava/lang/String;::checkBoundsBeginEnd
+7ff2e0f3fc20 300 Ljdk/internal/org/objectweb/asm/ClassWriter;::newUTF8
+7ff2e0f403e0 1a0 Ljdk/internal/org/objectweb/asm/ByteVector;::putByte
+7ff2e0f40940 100 Ljava/lang/StringBuilder;::append
+7ff2e0f40d60 140 Ljava/lang/Class;::getName
+7ff2e0f411c0 160 Ljava/util/zip/ZipUtils;::CENHOW
+7ff2e0f41700 380 Ljava/lang/String;::lastIndexOf
+7ff2e0f41ee0 180 Ljava/lang/Character;::toLowerCase
+7ff2e0f423e0 200 Ljava/lang/CharacterDataLatin1;::toLowerCase
+7ff2e0f42940 280 Ljava/util/concurrent/ConcurrentHashMap;::setTabAt
+7ff2e0f42ee0 260 Ljava/lang/AbstractStringBuilder;::<init>
+7ff2e0f43480 440 Ljava/lang/StringBuilder;::toString
+7ff2e0f43d60 7c0 Ljava/lang/ClassLoader;::checkName
+7ff2e0f44ae0 1e0 Ljdk/internal/org/objectweb/asm/ByteVector;::put12
+7ff2e0f450c0 e0 Ljava/lang/invoke/MethodType;::parameterCount
+7ff2e0f45580 a60 Ljdk/internal/org/objectweb/asm/Item;::isEqualTo
+7ff2e0f467a0 11c0 Ljdk/internal/org/objectweb/asm/Type;::getArgumentsAndReturnSizes
+7ff2e0f48240 180 Ljava/lang/invoke/MemberName;::testAllFlags
+7ff2e0f48740 8c0 Ljava/lang/Class;::getClassLoader
+7ff2e0f49600 840 Ljava/lang/invoke/MethodType;::checkSlotCount
+7ff2e0f4a4a0 4a0 Ljava/lang/AbstractStringBuilder;::append
+7ff2e0f4ad80 4c0 Ljava/lang/invoke/MethodType;::equals
+7ff2e0f4b5e0 200 Ljava/lang/invoke/VarForm;::getMemberName
+7ff2e0f4bc40 1020 Ljava/lang/invoke/VarHandleGuards;::guard_LII_Z
+7ff2e0f4d520 460 Ljava/lang/invoke/VarHandleInts$FieldInstanceReadWrite;::compareAndSet
+7ff2e0f4de40 e0 Ljava/util/concurrent/locks/ReentrantLock$NonfairSync;::tryAcquire
+7ff2e0f4e320 b40 Ljava/util/concurrent/locks/ReentrantLock$Sync;::nonfairTryAcquire
+7ff2e0f4f480 540 Lno/sintef/jasm/ext/EventType;::equals
+7ff2e0f4fd40 100 Lno/sintef/jasm/Handler$$Lambda$4/431687835;::check
+7ff2e0f50180 6a0 Lno/sintef/jasm/Handler;::lambda$new$1
+7ff2e0f50c40 120 Ljava/util/concurrent/atomic/AtomicBoolean;::get
+7ff2e0f51060 220 Ljdk/internal/misc/Unsafe;::getAndAddInt
+7ff2e0f515c0 e0 Ljdk/internal/misc/Unsafe;::weakCompareAndSetInt
+7ff2e0f51a00 4e0 Lno/sintef/jasm/CompositeState;::handle
+7ff2e0f523c0 160 Ljava/util/concurrent/locks/ReentrantLock$Sync;::isHeldExclusively
+7ff2e0f52860 200 Lno/sintef/jasm/Region;::handle
+7ff2e0f52dc0 180 Lno/sintef/jasm/ext/Event;::<init>
+7ff2e0f53280 2e0 Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;::signal
+7ff2e0f53960 260 Ljava/lang/Class;::cast
+7ff2e0f53f80 4a0 Lno/sintef/jasm/AtomicState;::handle
+7ff2e0f54900 380 Ljava/util/concurrent/locks/ReentrantLock$Sync;::tryRelease
+7ff2e0f54fe0 280 Ljava/util/concurrent/locks/AbstractQueuedSynchronizer;::release
+7ff2e0f555e0 2e0 Ljava/util/concurrent/locks/ReentrantLock;::unlock

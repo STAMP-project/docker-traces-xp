@@ -1,0 +1,10 @@
+package org.thingml.generated.api;
+
+import org.thingml.generated.api.*;
+
+public interface IBreakoutGameJava_controller{
+void positionxvar11_via_controller(byte ControllerMsgs_positionxvar11_var62_var, int ControllerMsgs_positionxvar11_x_var, byte ControllerMsgs_positionxvar11_var11_var);
+void positiony_via_controller(byte ControllerMsgs_positiony_var59_var, int ControllerMsgs_positiony_y_var);
+void position_bis__via_controller(byte ControllerMsgs_position_bis__var58_var);
+void position_bisxvar11y_via_controller(byte ControllerMsgs_position_bisxvar11y_var64_var, int ControllerMsgs_position_bisxvar11y_y_var, int ControllerMsgs_position_bisxvar11y_x_var, byte ControllerMsgs_position_bisxvar11y_var11_var);
+}

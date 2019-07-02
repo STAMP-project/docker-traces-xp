@@ -132,7 +132,7 @@ The script `demo.sh` show how to:
 - Run the three configurations
 - Process the profiling traces and generate a metric (improvement pendings)
 
-In this script, each configuration is built and executed 3 times, with the profiling set at three different frequencies.
+In this script, each configuration is built and executed several times, with the profiling set at three different frequencies. The goal is to maximize the number of traces caught by the profiler. Since it is not meant for production, go for high frequencies.
 
 > `demo.sh` is self-documented through comments... :-)
 

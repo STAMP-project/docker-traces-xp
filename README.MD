@@ -20,6 +20,16 @@ Enjoy the nice metrics!
 
 Look at `configs/config0/Dockerfile` to see how to instrument your (Java) app.
 
+If system metrics are 0, it means `perf` is not properly installed. Try installing it from the sources:
+
+```
+sudo apt-get update 
+sudo apt-get install -y build-essential cmake wget unzip flex bison
+cd /tmp && wget https://github.com/torvalds/linux/archive/v5.1.zip && unzip v5.1.zip && rm v5.1.zip
+cd linux-5.1/tools/perf && make 
+sudo cp perf /usr/bin
+```
+
 # Instrumenting any app
 
 Collecting traces is based on profiling your running app. Since profiling basically takes a snapshot of your running app *n* times per second (or at *n* Hz), there is no guarantee it will collect all traces. To increase the quality of the traces, we may want to run the profiler several times, possibly at different frequencies. Let's add the following lines early in your existing `Dockerfile` *e.g.* right after your `FROM` statement:
@@ -125,3 +135,9 @@ The script `demo.sh` show how to:
 In this script, each configuration is built and executed 3 times, with the profiling set at three different frequencies.
 
 > `demo.sh` is self-documented through comments... :-)
+
+# Viewing the traces
+
+Folder `profiling` contains aggregated traces about **all** configurations, including flamegraphs for Java calls and for systems calls.
+
+Each configuration also contains a `profiling` folder with traces for this configuration, flamegraphs (Java and systems calls) and diff flamegraphs comparing this configuration to the aggregated traces.
